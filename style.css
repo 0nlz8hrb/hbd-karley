@@ -1,0 +1,68 @@
+body {
+    padding: 1.5rem;
+}
+
+.greeting {
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    animation: fadeInOut 3s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  audio {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+
+.cat-gif {
+    max-width: 50%;
+    height: auto;
+    display: none;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+.birthday-button {
+  display: block;
+  margin: 0 auto;
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+  }
+  
+  .birthday-button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  }
+  
+  .birthday-button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+    -webkit-transform: translateY(2px) translateX(1px);
+    -moz-transform: translateY(2px) translateX(1px);
+    -ms-transform: translateY(2px) translateX(1px);
+    -o-transform: translateY(2px) translateX(1px);
+}
+
